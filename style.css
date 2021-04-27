@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/scissors.png");
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background: mediumpurple;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.content-desc {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-info {
+    margin: 15px 0;
+    font-size: 20px;
+}
+.btn{
+    background-color: deeppink;
+    color: white;
+}
+.btn:hover{
+    background-color: blue;
+}
